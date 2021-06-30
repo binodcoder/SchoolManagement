@@ -15,6 +15,7 @@ public class AddStudent extends AppCompatActivity {
         findViewById(R.id.btn_add).setOnClickListener(v->{
             Intent intent=new Intent(AddStudent.this, StudentProfile.class);
             startActivity(intent);
+
         });
 
 
